@@ -73,4 +73,5 @@ let nextISSTimesForMyLocation = function(callback) {
   });
 };
 
+module.exports = fetchMyIp;
 module.exports = nextISSTimesForMyLocation;
