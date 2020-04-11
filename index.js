@@ -37,12 +37,12 @@ let printPassTimes = function(flyOverTimes) {
   }
 };
 
-nextISSTimesForMyLocation((error, flyOverTimes) => {
-  if (error) {
-    return console.log("It didn't work!", error);
-  } else {
-    printPassTimes(flyOverTimes);
-  }
-});
+// nextISSTimesForMyLocation((error, flyOverTimes) => {
+//   if (error) {
+//     return console.log("It didn't work!", error);
+//   } else {
+//     printPassTimes(flyOverTimes);
+//   }
+// });
 
 module.exports = { printPassTimes };
